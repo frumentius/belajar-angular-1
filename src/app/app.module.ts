@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { HelloWorldComponent } from './HelloWorld/hello-world.component';
 import { HelloWorldBindingsComponent } from './HelloWorld/hello-world-bindings.component';
 import { HelloWorldNgIfComponent } from './HelloWorld/hello-world-ngif.component';
+import { HelloWorldDependencyInjectionComponent } from './HelloWorld/hello-world-dependency-injection.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HelloWorldComponent,
     HelloWorldBindingsComponent,
-    HelloWorldNgIfComponent
+    HelloWorldNgIfComponent,
+    HelloWorldDependencyInjectionComponent
   ],
   imports: [
     BrowserModule,

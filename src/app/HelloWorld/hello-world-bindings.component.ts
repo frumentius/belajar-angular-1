@@ -10,7 +10,7 @@ export class HelloWorldBindingsComponent {
   canClick: boolean = false;
   message: string = 'Hello, World!';
 
-  sayMessage() {
+  sayMessage(): void {
     alert(this.message);
   }
 }
