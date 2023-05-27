@@ -5,10 +5,10 @@ import { Component } from '@angular/core';
   templateUrl: 'hello-world-bindings.component.html'
 })
 export class HelloWorldBindingsComponent {
-  fontColor = 'teal';
-  sayHelloId = 1;
-  canClick = false;
-  message = 'Hello, World!';
+  fontColor: string = 'teal';
+  sayHelloId: number = 1;
+  canClick: boolean = false;
+  message: string = 'Hello, World!';
 
   sayMessage() {
     alert(this.message);
